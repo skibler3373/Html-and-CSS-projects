@@ -1,11 +1,12 @@
 body {
     background-color: #fff;
 }
-hi {
-    color:rgba (8,14,165,1);
-    margin-left: 100px;
-    text-shadow: 1px .5px 4px rgba(red, green, blue, alpha);
-}
+h1 {
+    color:rgba(8,141,165,1);
+    margin-left:100px;
+    text-shadow: 1px .5px 4px rgba(0,0,0,0.6);
+} 
+    
 
 .Container {
     width:450px;
@@ -15,6 +16,5 @@ hi {
     border-radius: 54;
 }
 
-/.-------------------------------------------------------------------
-                     Select all Squares in the array
----------------------------------------------------------------------./
+
+
