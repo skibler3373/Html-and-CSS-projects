@@ -12,30 +12,31 @@ h1 {
     height: 450px;
     background-color: #faebd7;
     border: 2px solid black;
-    border-radius: 54;
+    border-radius: 5%;
 }
 
 /*-------------------------------------------------------------
 SELECT ALL SQUARES IN THE ARRAY
 ---------------------------------------------------------------*/   
 
-.Container .squares :nth-child(-n+4){
+.Container .squares:nth-child(-n+4){
     background-image: url("../Images2/Icons/icons.png");
     color: #fff;
     float: left;
     width: 100px;
     height: 100px;
-    margin: 50px;
+    margin: 5px;
     border: 1px solid black;
-    border-radius: 245;
+    border-radius: 25%;
     cursor: pointer;
+    transition: transform .50s ease-in-out;
 }
 
 /*-------------------------------------------------------------
 SELECT ALL SQUARES PARAGRAPHS IN THE ARRAY
 ---------------------------------------------------------------*/  
 
-.squares :nth-child(-n+4) p {
+.squares:nth-child(-n+4) p {
     font-family: helvetica ,Arial, Helvetica, sans-serif;
     font-size: 1.5cm;
     font-weight: 900;
