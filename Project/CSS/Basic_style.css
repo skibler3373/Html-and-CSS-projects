@@ -1,0 +1,20 @@
+body {
+    background-color: #fff;
+}
+hi {
+    color:rgba (8,14,165,1);
+    margin-left: 100px;
+    text-shadow: 1px .5px 4px rgba(red, green, blue, alpha);
+}
+
+.Container {
+    width:450px;
+    height: 450px;
+    background-color: #faebd7;
+    border: 2px solid black;
+    border-radius: 54;
+}
+
+/.-------------------------------------------------------------------
+                     Select all Squares in the array
+---------------------------------------------------------------------./
