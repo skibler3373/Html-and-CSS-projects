@@ -2,14 +2,14 @@ body {
     background: #184352;
 }
 
-   .wrap {
+   .wrap{
        top: 0;
        left: 0;
        height: auto;
        width: 100%;
    } 
 
-   .menu-container {
+   .menu-container{
        top: 0;
        left: 0;
        /* To the Top Edge of the Screen */
@@ -40,12 +40,12 @@ body {
        cursor: pointer;
    }
 
-   .menu li:hover {
+   .menu li:hover{
        background-color: #5eafdf;
        color: #fff;
 }
 
-.menu li:hover ul {
+.menu li:hover ul{
     display: block;
     opacity: 1;
 
@@ -65,13 +65,13 @@ visibility: visible;
     visibility: hidden;
 }
 
-.submenu li {
+.submenu li{
     background-color: #387593;
     display: block;
     color: #b3b3b3;
 }
 
-.submenu li:hover {
+.submenu li:hover{
     color: #fff;
     background-color: #5eafdf;
 }
