@@ -33,14 +33,13 @@ h1{
     color: #e91c1c;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
-
 h1::after{ /* This is the underline*/
-   display:block;
+    display: block;
     content: "";
     height: 2px;
-    width: 250px;
+    width: 150px;
     background: #e91c1c;
-    margin: 5px auto 40px;
+    margin: 5px auto 40 px;
     box-shadow: 5px 2px 3px rgba(0,0,0,0.5); ;
     
 }
@@ -56,14 +55,14 @@ h3{
 }
 
 h4{
-    padding-top: 25px;
-    line-height: 40px;
-    padding-bottom: 0px;
-    font-size: 150px;
-    font-weight: 900;  
-  }
+  padding-top: 25px;
+  line-height: 40px;
+  padding-bottom: 0px;
+  font-size: 22px;
+  font-weight: 900;  
+}
 
-  p{
+p{
     font-weight: 300;
     line-height: 30px;
     padding-bottom: 15px;
@@ -145,16 +144,16 @@ section{
 HOME SECTION STYLES
 ---------------------------------------------------------*/
 
-#Home{
-    background-image: url(../CSS/planets.jpeg);
+#home{
+    background:url(../Images2/planets.jpeg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size:cover;
     -moz-background-size:cover;
     background-size: cover;
     width: 100%;
-    display:block;
-    height:auto;
+    display: block;
+    height: auto;
     padding-top: 350px;/* this spacer before main title logo*/
     padding-bottom: 500px;/* this spacer after main title logo*/
     color: #fff;
@@ -168,21 +167,21 @@ HOME SECTION STYLES
     word-spacing: 21pt;
     font-size: 4.5em;
     text-align: left;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: impact,sans-serif;
     line-height: 2;
     font-weight: 900;
-    border: 5px double #fff;
+    border-radius: 5px double #fff;
     padding: 10px;
 }
 
-.Head-sub-main{
+.head-sub-main{
     font-size: 23px;
     font-weight: 500;
     padding: 50px 20px 10px 20px;
     text-transform: uppercase;
 }
 
-.Head-last{
+.head-last{
     font-size: 10px;
     font-weight: 900;
     padding: 5px 20px 20px 20px;
@@ -190,16 +189,14 @@ HOME SECTION STYLES
     padding: 5px;
 }
 
-
 /*----------------------------------------------
 CONTACT STYLES
 -----------------------------------------------*/
 
 .flex-container{
-
     display: -webkit-flex;
-    display: wrap;
-    flex-wrap: wrap;
+    display: flex;
+    flex-grow: wrap;
     padding: 10px;
     border-radius: 8px;
     margin: 0pt auto;
@@ -289,7 +286,7 @@ CONTACT STYLES
     padding: 30px 39px;
 }
 
-.Terms{
+.terms{
     margin-top: 13%;
     margin: 30px 10px 0 0;
     padding-left: 52px;font-size: 14px;
@@ -303,12 +300,12 @@ CONTACT STYLES
     font-weight: 600;
 }
 
-.Terms:hover{
+.terms:hover{
     color: orange;
     text-decoration: underline;
 }
 
-.Submit input[type="submit"]{
+.submit input[type="submit"]{
     color: rgb(225,225,225);
     cursor: pointer;
     border:none;
@@ -318,7 +315,7 @@ CONTACT STYLES
     font-family: 'raleway',sans-serif;
     margin: 0px 3%;
     padding: 7px 0px;
-    width: 25%;
+    width: 25px;
     font-size: 10px;
     transition: border-color 0.3s color 0.3s, background-color 0.3s;
     border-radius: 7px;
@@ -326,37 +323,20 @@ CONTACT STYLES
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
 }
 
-.Submit input[type="submit"]:hover{
+.submit input[type="submit"]:hover{
     color: #000;
     background-color: #8d8e8f;
     box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
 }
 
-
 /*-------------------------------------------------
 Footer Styles
 --------------------------------------------------*/
 
-#Footer{
+#footer{
     background-color: rgba(100,65,0,0.3);
     color: #000;
     text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
     padding: 20px 50px 20px 50px;
     text-align: right;
 }
-
-
-
-   
-  
-    
-   
-   
-
-
-
-
-
-
-
-
