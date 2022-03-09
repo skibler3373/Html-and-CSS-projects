@@ -1,0 +1,12 @@
+body{
+background-color:  lightblue;
+}
+
+img{
+    border-color: red;
+    width: 600px;
+    height: 300px;
+    border: dashed;
+    border-width: 2px;
+}
+
