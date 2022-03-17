@@ -13,13 +13,27 @@
   <body>
 
     <div class="container">
+        
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+          </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-info">
             <div class="container-fluid">
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item active">
-                    <a class="nav-link text-light " aria-current="page" href="#">About</a>
-                  </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          About
+                        </a>
+                    
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#Kong" >Kong: skull island</a>
+                          <a class="dropdown-item" href="#Beauty" >Ghost in the shell</a>
+                          <a class="dropdown-item" href="#Ghost" >Beauty and the Beast</a>
+                        </div>
+                      </li>
                   <li class="nav-item active">
                     <a class="nav-link text-light" href="#">Showtimes</a>
         
@@ -45,18 +59,14 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                  <img class="img-fluid" src="../Project/bootstrap4_project/Images/pdx.jpeg" alt="">
-                
-
-
-
-              </div>
+                  <img class="img-fluid" src="../HTML-and-CSS-Projects./Project/bootstrap4_project/Images/pdx.jpeg" alt="">
+                </div>
 
               <div class="col order-12">
                 <h3>Now Playing</h3>
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <a class="Nav-link" href="#">Kong: skull island</a>
+                        <a class="Nav-link" href="#Kong">Kong: skull island</a>
                     </li>
                     <li class="list-group-item">
                         <a class="Nav-link" href="#">Ghost in the shell</a>
@@ -78,6 +88,55 @@
           </div>
 
           <!--ShowTimes-->
+          <div class="container">
+            <div class="row">
+              <div class="col order-last" id="Beauty">
+                <h3>Beauty and the Beast</h3>
+                <img class="img-fluid" src="../HTML-and-CSS-Projects./Project/bootstrap4_project/Images/beautyandthebeast.jpeg" alt="">
+                <p>An arrogant prince is cursed to live as a terrifying beast until he finds true love. Strangely, 
+                    his chance comes when he captures an unwary clockmaker, whose place is then taken by his bold and beautiful daughter Belle. 
+                    Helped by the Beast's similarly enchanted servants, including a clock, a teapot and a candelabra, 
+                    Belle begins to see the sensitive soul behind the fearsome facade. But as time runs out, 
+                    it soon becomes obvious that Belle's cocky suitor Gaston is the real beast of the piece.</p>
+                    <h3 class="text-primary my-5">Showtimes</h3>
+                    <span class="badge badge-pill badge-primary">1:15pm</span>
+                    <span class="badge badge-pill badge-primary">1:50pm</span>
+                    <span class="badge badge-pill badge-primary">2:15pm</span>
+                    <span class="badge badge-pill badge-primary">3:00pm</span>
+              </div>
+              
+              
+              <div class="col" id="Kong">
+               <h3>Kong Skull Island</h3>
+               <img class="img-fluid" src="../HTML-and-CSS-Projects./Project/bootstrap4_project/Images/kongskullisland.jpeg" alt="">
+               <p>Scientists, soldiers and adventurers unite to explore a mythical, uncharted island in the Pacific Ocean. Cut off from everything they know, 
+                   they venture into the domain of the mighty Kong, igniting the ultimate battle between man and nature. 
+                   As their mission of discovery soon becomes one of survival, they must fight to escape from a primal world where humanity does not belong.</p>
+                   <h3 class="text-primary my-5">Showtimes</h3>
+                   <span class="badge badge-pill badge-primary">2:00pp</span>
+                   <span class="badge badge-pill badge-primary">2:45pm</span>
+                   <span class="badge badge-pill badge-primary">3:15pm</span>
+                   <span class="badge badge-pill badge-primary">3:50pm</span>
+              </div>
+                   
+
+              
+              <div class="col order-first" id="Ghost">
+                <h3>Ghost in the Shell</h3>
+                <img class="img-fluid" src="../HTML-and-CSS-Projects./Project/bootstrap4_project/Images/ghostintheshell.jpeg" alt="">
+                <p>In this Japanese animation, cyborg federal agent Maj. Motoko Kusanagi (Mimi Woods) trails "The Puppet Master" (Abe Lasser), who illegally hacks into the computerized minds of cyborg-human hybrids. 
+                    Her pursuit of a man who can modify the identity of strangers leaves Motoko pondering her own makeup and what life might be like if she had more human traits. With her partner (Richard George), 
+                    she corners the hacker, but her curiosity about her identity sends the case in an unforeseen direction.</p>
+                    <h3 class="text-primary my-5">Showtimes</h3>
+                    <span class="badge badge-pill badge-primary">3:00pm</span>
+                    <span class="badge badge-pill badge-primary">3:45pm</span>
+                    <span class="badge badge-pill badge-primary">4:30pm</span>
+                    <span class="badge badge-pill badge-primary">5:15pm</span>
+              </div>
+            </div>
+          </div>
+
+        
           <!--End ShowTimes-->
 
           <div class="text-center">
@@ -92,20 +151,20 @@
 
     <div class="container my-5">
         <ul class="nav nav-inline">
-            <li class="Nav-item">
-                <small><a class="Nav-link" href="#">Movie Rewards|</a></small>
+            <li class="nav-item">
+                <small><a class="nav-link" href="#">Movie Rewards</a></small>
                 </li>
                 
-                <li class="Nav-item">
-                    <small><a class="Nav-link" href="#">Movies@News.org|</a></small>
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">Movies@News.org</a></small>
                 </li>
                 
-                <li class="Nav-item">
-                <small><a class="Nav-link" href="#">Info@academycinemas.com|</a></small>
+                <li class="nav-item">
+                <small><a class=nav-link" href="#">Info@academycinemas.com</a></small>
             </li>
 
-            <li class="Nav-item">
-                <small class="Nav-link"> &copy;2019 Academy Cinemas&reg;</small>
+            <li class="nav-item">
+                <small class="nav-link"> &copy;2019 Academy Cinemas&reg;</small>
             </li>
         </ul>
     </div>
